@@ -12,6 +12,10 @@ public class Num {
         this.value = value;
     }
 
+    public boolean equals(Num num2) {
+        return (num2.getValue() == this.value);
+    }
+
     public String toString() {
         return value + "";
     }
