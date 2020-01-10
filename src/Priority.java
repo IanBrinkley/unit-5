@@ -1,4 +1,4 @@
 public interface Priority {
-    void setPriority(int priorityLevel);
+    void setPriority(int priority);
     int getPriority();
 }
