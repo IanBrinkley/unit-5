@@ -2,7 +2,7 @@ public class ParameterTester {
     public void changeValues (int f1, Num f2, Num f3){
         System.out.println("Before changing the values:");
         System.out.println("f1\tf2\tf3");
-        System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");
+        System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");                 // 111 222 333
 
         f1 = 999;
         f2.setValue(888);
@@ -10,6 +10,6 @@ public class ParameterTester {
 
         System.out.println("After changing the values:");
         System.out.println("f1\tf2\tf3");
-        System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");
+        System.out.println(f1 + "\t" + f2 + "\t" + f3 + "\n");                  // 999 888 777
     }
 }

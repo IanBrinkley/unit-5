@@ -1,5 +1,6 @@
 public class Num {
-    int value;
+    private int value;
+
     public Num (int value) {
         this.value = value;
     }
@@ -12,11 +13,11 @@ public class Num {
         this.value = value;
     }
 
-    public boolean equals(Num num2) {
-        return (num2.getValue() == this.value);
-    }
-
     public String toString() {
         return value + "";
+    }
+
+    public boolean equals(Num num2) {
+        return this.value == num2.value;
     }
 }

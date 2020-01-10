@@ -8,12 +8,12 @@ public class ParameterPassing {
 
         System.out.println("Before calling changeValues:");
         System.out.println("a1\ta2\ta3");
-        System.out.println(a1 + "\t" + a2 + "\t" + a3 + "\n");
+        System.out.println(a1 + "\t" + a2 + "\t" + a3 + "\n");           // 111 222 333
 
         tester.changeValues(a1,a2,a3);
 
         System.out.println("After calling changeValues:");
         System.out.println("a1\ta2\ta3");
-        System.out.println(a1 + "\t" + a2 + "\t" + a3 + "\n");
+        System.out.println(a1 + "\t" + a2 + "\t" + a3 + "\n");           // 111 222 333
     }
 }
