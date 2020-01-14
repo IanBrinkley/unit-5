@@ -1,4 +1,4 @@
-public class Die implements Lockable{
+public class Die implements Lockable {
     private int face;
     private int key;
     private boolean locked;
